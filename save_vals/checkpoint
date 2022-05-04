@@ -1,0 +1,2 @@
+model_checkpoint_path: "advayOAMF_2000epo_2hid_extreme"
+all_model_checkpoint_paths: "advayOAMF_2000epo_2hid_extreme"
