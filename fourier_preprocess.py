@@ -124,10 +124,10 @@ pause_time = 0.001
 # 0.0104 seconds per datapoint
 
 
-run_fourier("wav_tests/DL_wiki.wav", 2000, 500, 
+run_fourier("wav_tests/Advay-OAMF.wav", 2000, 500, 
     pause_time, 
     animate=False, 
-    write_to_csv=False, 
-    csv_filename="DL_wiki_1",
+    write_to_csv=True, 
+    csv_filename="Advay-OAMF",
     save_to_numpy=False
     )

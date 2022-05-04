@@ -8,16 +8,16 @@ from joblib import dump, load
 
 def main():
 
-    train = False
+    train = True
 
-    with open('DL_wiki_2.csv', 'r') as f:
+    with open('Advay-OAMF.csv', 'r') as f:
         data = list(csv.reader(f, delimiter=","))
  
     data = np.array(data)
 
     if train:
         gm = GaussianMixture(n_components=5, random_state=0, verbose=2).fit(data)
-        dump(gm, 'gaussian_test.joblib')
+        dump(gm, 'advay_OAMF_test.joblib')
 
     else:
         print(data.shape)
